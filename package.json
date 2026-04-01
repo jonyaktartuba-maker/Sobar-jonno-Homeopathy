@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "echo 'No build step required for plain HTML/JS/CSS'",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
