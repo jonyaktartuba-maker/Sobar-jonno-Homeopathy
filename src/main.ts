@@ -208,22 +208,22 @@ const renderHome = () => {
 
   const slides = [
     {
-      image: 'https://picsum.photos/seed/health/1920/1080',
+      image: 'https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?q=80&w=1920&auto=format&fit=crop',
       title: 'প্রাকৃতিক আরোগ্যের পথে',
       subtitle: 'পার্শ্বপ্রতিক্রিয়াহীন ও নিরাপদ চিকিৎসা'
     },
     {
-      image: 'https://picsum.photos/seed/medicine/1920/1080',
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=1920&auto=format&fit=crop',
       title: 'সুস্থ জীবনের জন্য হোমিওপ্যাথি',
       subtitle: 'আপনার এবং আপনার পরিবারের সুস্বাস্থ্যের জন্য'
     },
     {
-      image: 'https://picsum.photos/seed/doctor/1920/1080',
+      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1920&auto=format&fit=crop',
       title: 'অভিজ্ঞ চিকিৎসকের পরামর্শ',
       subtitle: 'সঠিক লক্ষণ বিচার করে চিকিৎসা'
     },
     {
-      image: 'https://picsum.photos/seed/hospital/1920/1080',
+      image: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=1920&auto=format&fit=crop',
       title: 'সম্পূর্ণ পার্শ্বপ্রতিক্রিয়াহীন',
       subtitle: 'শিশুদের ও বয়স্কদের জন্য নিরাপদ'
     }
@@ -818,12 +818,6 @@ const renderSymptoms = () => {
               </div>
               
               <div class="space-y-4">
-                ${remedy.description ? `
-                <div class="text-sm text-slate-600 italic bg-slate-50 p-3 rounded-lg border border-slate-100">
-                  ${remedy.description}
-                </div>
-                ` : ''}
-
                 <div>
                   <h4 class="font-semibold text-teal-700 text-sm mb-2 flex items-center gap-1">
                     <i data-lucide="activity" class="h-4 w-4"></i> প্রধান লক্ষণ
