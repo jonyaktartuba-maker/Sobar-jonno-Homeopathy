@@ -758,6 +758,7 @@ const renderSymptoms = () => {
               </h2>
             </div>
             <div class="p-8">
+              ${category.diseases.length > 0 ? `
               <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 ${category.diseases.map(disease => `
                   <button 
@@ -772,6 +773,12 @@ const renderSymptoms = () => {
                   </button>
                 `).join('')}
               </div>
+              ` : `
+              <div class="text-center py-8 text-slate-400">
+                <i data-lucide="clock" class="h-12 w-12 mx-auto mb-3 opacity-50"></i>
+                <p class="text-lg">শীঘ্রই আসছে...</p>
+              </div>
+              `}
             </div>
           </div>
         `).join('')}
